@@ -28,10 +28,10 @@ public class EmployeeApp {
                 System.out.println("6. Exit");
                 System.out.print("Enter your choice: ");
 
-                int choice = sc.nextInt();
+                int choices = sc.nextInt();
                 sc.nextLine();
 
-                switch (choice) {
+                switch (choices) {
 
                     case 1:
                         System.out.print("Enter Employee Name: ");
